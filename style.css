@@ -56,33 +56,34 @@ header nav ul li a {
 	color: #767676;
 	text-decoration: none;
 }
-
-.text h1 {
+h1 {
 	font-size: 54px;
 	line-height: 60px;
+}
+
+.text {
 	color: antiquewhite;
 	grid-column: 2/6;
 }
 
-.text p {
+p {
 	font-size: 20px;
 	line-height: 30px;
-	color: antiquewhite;
-	grid-column: 2/6;
 }
 
 .hogwartsimg {
 	grid-column: 2/8;
+	grid-row: 6/13;
 }
 
 .hogwartsimg img {
-	width: 70%;
+	width: 60%;
 	border-radius: 10px;
 }
 
 .train {
 	grid-column: 7/13;
-    grid-row: 4/13;
+	grid-row: 4/13;
 }
 
 .train img {
@@ -101,7 +102,8 @@ header nav ul li a {
 }
 
 .potion {
-	grid-column: 2/7;
+	grid-column: 8/13;
+	grid-row: 3/7;
 }
 
 .potion img {
@@ -156,7 +158,7 @@ header nav ul li a {
 }
 
 .Wie-ben-ik {
-	grid-column: 2/7;
+	grid-column: 2/8;
 	color: antiquewhite;
 }
 
@@ -176,5 +178,59 @@ header nav ul li a {
 
 .plants img {
 	width: 70%;
+	border-radius: 10px;
+}
+
+.text2 {
+	color: antiquewhite;
+	grid-column: 3/7;
+}
+
+.broomstick {
+	grid-column: 2/8;
+	grid-row: 6/13;
+}
+
+.broomstick img {
+	width: 50%;
+	border-radius: 10px;
+}
+
+.golden {
+	grid-column: 7/13;
+	grid-row: 6/13;
+}
+
+.golden img {
+	width: 70%;
+	border-radius: 10px;
+}
+
+.plant-class {
+	grid-column: 8/13;
+	grid-row: 2/7;
+}
+
+.plant-class img {
+	width: 70%;
+	border-radius: 10px;
+}
+
+.under {
+	grid-column: 7/13;
+	grid-row: 6/13;
+}
+
+.under img {
+	width: 60%;
+	border-radius: 10px;
+}
+
+.undesirable{
+	grid-column: 2/8;
+}
+
+.undesirable img{
+	width: 60%;
 	border-radius: 10px;
 }
