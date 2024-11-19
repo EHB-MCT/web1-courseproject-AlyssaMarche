@@ -240,13 +240,22 @@ p {
 	display: none;
 }
 .hamburger {
-	display :none;		
+	display: none;
 }
 
 .menu {
-  display: none;
+	display: none;
 }
 
+.sorting {
+	grid-column: 7/13;
+	grid-row: 5/13;
+}
+
+.sorting img {
+	width: 70%;
+	border-radius: 10px;
+}
 
 @media screen and (max-width: 768px) {
 	.desktop {
@@ -358,7 +367,7 @@ p {
 		width: 100%;
 	}
 
-	.Wie-ben-ik{
+	.Wie-ben-ik {
 		grid-column: 2/12;
 		grid-row: auto;
 	}
@@ -388,13 +397,22 @@ p {
 	.undesirable img {
 		width: 100%;
 	}
+
+	.sorting {
+		grid-column: 2 / 12;
+		grid-row: auto;
+	}
+
+	.sorting img {
+		width: 100%;
+	}
 	.hamburger {
 		display: inline-block;
 		grid-column: 12/13;
 		background-color: #186289;
-	  }
-	  
-	  .menu {
+	}
+
+	.menu {
 		transition: transform 0.3s ease;
 		transform: translateX(-100%);
 		position: absolute; /* Ensure the menu is positioned correctly */
@@ -402,24 +420,24 @@ p {
 		left: 0;
 		width: 100%;
 		background-color: white; /* Adjust as needed */
-	  }
-	  
-	  .menu.open {
+	}
+
+	.menu.open {
 		transform: translateX(0);
-	  }
-	  header nav {
+	}
+	header nav {
 		display: none;
 	}
-	
+
 	header nav ul {
 		display: none;
 	}
-	
+
 	header nav ul li {
 		display: none;
 	}
-	
+
 	header nav ul li a {
-	   display: none;
+		display: none;
 	}
 }
