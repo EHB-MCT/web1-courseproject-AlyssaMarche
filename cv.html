@@ -25,6 +25,14 @@
 			<header>
 				<img src="images/logo.png" class="logo-hp desktop" alt="" />
 				<img src="images/logohp.png" class="logo-hp mobile" alt="">
+                <button class="hamburger">☰</button>
+				<nav class="menu">
+					<ul>
+						<li><a href="#" class="button">homepage</a></li>
+						<li><a href="#" class="button">about me</a></li>
+						<li><a href="#" class="button">CV</a></li>
+					</ul>
+				</nav>
 				<nav>
 						<ul>
 						<li><a href="#index" class="button">homepage</a></li>
@@ -71,5 +79,8 @@
 				<img src="images/goldensnitch.jpeg" alt="" />
 			</div>
 		</div>
+        <script>document.querySelector('.hamburger').addEventListener('click', function() {
+			document.querySelector('.menu').classList.toggle('open');
+		  });</script>
 	</body>
 </html>
