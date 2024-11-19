@@ -73,17 +73,17 @@ p {
 
 .hogwartsimg {
 	grid-column: 2/8;
-	grid-row: 6/13;
+	grid-row: 8/13;
 }
 
 .hogwartsimg img {
-	width: 60%;
+	width: 50%;
 	border-radius: 10px;
 }
 
 .train {
 	grid-column: 7/13;
-	grid-row: 4/13;
+	grid-row: 3/6;
 }
 
 .train img {
@@ -112,8 +112,8 @@ p {
 }
 
 .quidditch {
-	grid-column: 2/7;
-	grid-row: 4/6;
+	grid-column: 2/6;
+	grid-row: 2/6;
 }
 
 .quidditch img {
@@ -154,7 +154,7 @@ p {
 }
 
 .text {
-	grid-column: 6/13;
+	grid-column: 7/13;
 }
 
 .Wie-ben-ik {
@@ -183,7 +183,8 @@ p {
 
 .text2 {
 	color: antiquewhite;
-	grid-column: 3/7;
+	grid-column: 2/6;
+	grid-row: 5/13;
 }
 
 .broomstick {
@@ -218,7 +219,7 @@ p {
 
 .under {
 	grid-column: 7/13;
-	grid-row: 6/13;
+	grid-row: 7/13;
 }
 
 .under img {
@@ -226,11 +227,43 @@ p {
 	border-radius: 10px;
 }
 
-.undesirable{
+.undesirable {
 	grid-column: 2/8;
 }
 
-.undesirable img{
+.undesirable img {
 	width: 60%;
 	border-radius: 10px;
+}
+
+.mobile {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.desktop{
+		display: none;
+	}
+	.mobile {
+		display: block;
+	}
+	.text{
+		order: 1;
+	}
+	.text2{
+		order: 2;
+	}
+	.quidditch{
+		order: 3;
+	}
+	.train{
+		order: 4;
+	}
+	.hogwarts{
+		order: 5;
+	}
+	.under{
+		order: 6;
+	}
+
 }
