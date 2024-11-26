@@ -256,20 +256,20 @@ p {
 	width: 50%;
 	border-radius: 10px;
 }
-
-#myLinks{
+.mobile-container{
 	display: none;
 }
+
 
 @media screen and (max-width: 768px) {
 	.desktop {
 		display: none;
 	}
-	.mobile {
+	.mobile{
 		display: block;
-		grid-column: 1/5;
+		grid-column: 1/6;
 	}
-
+	
 	.quidditch {
 		grid-column: 2 / 12;
 		grid-row: auto;
@@ -426,14 +426,17 @@ p {
 	header nav ul li a {
 		display: none;
 	}
+
 	body {
 		font-family: Arial, Helvetica, sans-serif;
 	  }
 	  
 	  .mobile-container {
+		display: block;
+		grid-column: 8/13;
+		grid-row: 1/5;
 		max-width: 480px;
 		margin: auto;
-		background-color: #555;
 		height: 500px;
 		color: white;
 		border-radius: 10px;
@@ -441,7 +444,7 @@ p {
 	  
 	  .topnav {
 		overflow: hidden;
-		background-color: #333;
+		background-color: #186289;
 		position: relative;
 	  }
 	  
@@ -451,7 +454,7 @@ p {
 	  
 	  .topnav a {
 		float: left;
-		color: white;
+		color: antiquewhite;
 		padding: 14px 16px;
 		text-decoration: none;
 		font-size: 17px;
@@ -462,12 +465,8 @@ p {
 	  }
 	  
 	  .topnav a:hover {
-		background-color: #ddd;
+		background-color: #0d87c4;
 		color: black;
 	  }
-	  
-	 #myLinks {
-		grid-column: 6/13;
-		grid-row: 1/6;
-	 }
+	
 }
