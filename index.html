@@ -25,14 +25,24 @@
 			<header>
 				<img src="images/logo.png" class="logo-hp desktop" alt="" />
 				<img src="images/logohp.png" class="logo-hp mobile" alt="" />
-				<button class="hamburger">☰</button>
-				<nav class="menu">
-					<ul>
-						<li><a href="index.html" class="button">homepage</a></li>
-						<li><a href="about me.html" class="button">about me</a></li>
-						<li><a href="cv.html" class="button">CV</a></li>
-					</ul>
-				</nav>
+
+				<!-- Simulate a smartphone / tablet -->
+				<div class="mobile-container">
+					<!-- Top Navigation Menu -->
+					<div class="topnav">
+						<a href="#home" class="active">Harry Potter</a>
+						<div id="myLinks">
+							<a href="index.html">Homepage</a>
+							<a href="about-me.html">About me</a>
+							<a href="cv.html">CV</a>
+						</div>
+						<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+							<i class="fa fa-bars"></i>
+						</a>
+					</div>
+
+					<!-- End smartphone / tablet look -->
+				</div>
 
 				<nav>
 					<ul>
@@ -74,8 +84,16 @@
 				<img src="images/train.jpeg" alt="" />
 			</div>
 		</div>
-		<script>document.querySelector('.hamburger').addEventListener('click', function() {
-			document.querySelector('.menu').classList.toggle('open');
-		  });</script>
+
+		<script>
+			function myFunction() {
+				var x = document.getElementById("myLinks");
+				if (x.style.display === "block") {
+					x.style.display = "none";
+				} else {
+					x.style.display = "block";
+				}
+			}
+		</script>
 	</body>
 </html>
