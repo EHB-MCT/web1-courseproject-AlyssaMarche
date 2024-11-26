@@ -5,6 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Harry Potter</title>
 		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
 	</head>
 	<body>
 		<div class="wrapper">
@@ -26,11 +30,11 @@
 				<img src="images/logo.png" class="logo-hp desktop" alt="" />
 				<img src="images/logohp.png" class="logo-hp mobile" alt="" />
 
-				<!-- Simulate a smartphone / tablet -->
+				<!-- Simulate a smartphone / tablet look -->
 				<div class="mobile-container">
 					<!-- Top Navigation Menu -->
 					<div class="topnav">
-						<a href="#home" class="active">Harry Potter</a>
+						<a href="#home" class="active"></a>
 						<div id="myLinks">
 							<a href="index.html">Homepage</a>
 							<a href="about-me.html">About me</a>
@@ -40,7 +44,6 @@
 							<i class="fa fa-bars"></i>
 						</a>
 					</div>
-
 					<!-- End smartphone / tablet look -->
 				</div>
 
@@ -84,16 +87,15 @@
 				<img src="images/train.jpeg" alt="" />
 			</div>
 		</div>
-
 		<script>
 			function myFunction() {
-				var x = document.getElementById("myLinks");
-				if (x.style.display === "block") {
-					x.style.display = "none";
-				} else {
-					x.style.display = "block";
-				}
+			  var x = document.getElementById("myLinks");
+			  if (x.style.display === "block") {
+				x.style.display = "none";
+			  } else {
+				x.style.display = "block";
+			  }
 			}
-		</script>
+			</script>
 	</body>
 </html>
