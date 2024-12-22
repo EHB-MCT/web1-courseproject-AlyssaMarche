@@ -1,4 +1,5 @@
 Code die ik zelf niet heb geschreven (ik heb er wel zelf enkele aanpassingen aan gebracht):
+gevonden op w3school https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
 		<!-- Simulate a smartphone / tablet look -->
 				<div class="mobile-container">
 					<!-- Top Navigation Menu -->
@@ -65,5 +66,9 @@ Code die ik zelf niet heb geschreven (ik heb er wel zelf enkele aanpassingen aan
 	  .topnav a:hover {
 		background-color: #0d87c4;
 		color: black;
-	  }
-	
+}
+
+foto's komen van pinterest
+board:
+https://pin.it/6LPRvTrOq
+
