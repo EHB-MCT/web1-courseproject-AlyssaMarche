@@ -45,9 +45,8 @@ p {
 }
 
 .logo-hp-mobile {
-	display: flex;
+	display: block;
 	width: 30%;
-	justify-content: flex-end;
 }
 
 ul {
@@ -58,10 +57,12 @@ ul {
 	overflow: hidden;
 	background-color: #186289;
 	position: relative;
+	top: -90px;
 	border-radius: 8px;
 	display: flex;
 	align-items: center;
 	justify-self: flex-end;
+	margin-left: auto;
 }
 
 .mobile-container {
