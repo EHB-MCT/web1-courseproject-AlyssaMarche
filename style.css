@@ -277,9 +277,24 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
+	.desktop-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 20px 40px;
+	}
+
 	.logo-hp-desktop {
 		display: block;
 		width: 30%;
+	}
+
+	.desktop-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 20px;
+		background-color: #0e2532;
 	}
 
 	.logo-hp-mobile {
@@ -307,7 +322,8 @@ nav {
 	}
 
 	nav {
-		display: block;
+		display: flex;
+		gap: 15px;
 		font-family: "IM Fell English", serif;
 		font-weight: 400;
 		font-style: normal;
@@ -322,12 +338,17 @@ nav {
 	.button {
 		padding: 15px 30px;
 		margin: 5px;
-		font-size: 1.25rem;
+		font-size: 1.1rem;
 		background-color: #186289;
-		display: inline-block;
 		border-radius: 8px;
 		text-decoration: none;
 		color: antiquewhite;
+		transition: background-color 1s ease;
+	}
+
+	.button:hover {
+		background-color: #0d87c4;
+		color: rgb(215, 202, 184);
 	}
 
 	.undesirable img {
