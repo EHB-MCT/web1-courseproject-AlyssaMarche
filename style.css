@@ -49,7 +49,7 @@ p {
 	width: 30%;
 }
 
-ul {
+nav {
 	display: none;
 }
 
@@ -63,6 +63,7 @@ ul {
 	align-items: center;
 	justify-self: flex-end;
 	margin-left: auto;
+	margin-right: 15px;
 }
 
 .mobile-container {
@@ -105,7 +106,7 @@ ul {
 }
 
 .under img,
-.hogwartsimg img,
+.hogwarts img,
 .quidditch img,
 .train img,
 .potion img,
@@ -121,5 +122,222 @@ ul {
 	width: 100%;
 }
 
+@media screen and (min-width: 728px) {
+	.logo-hp-desktop {
+		display: none;
+	}
+
+	.logo-hp-mobile {
+		display: block;
+		width: 30%;
+	}
+
+	h1 {
+		font-size: 2rem;
+	}
+
+	h2 {
+		font-size: 1.6rem;
+	}
+
+	h3 {
+		font-size: 1.3rem;
+	}
+
+	p {
+		font-size: 1.125rem;
+	}
+
+	.topnav {
+		overflow: hidden;
+		background-color: #186289;
+		position: relative;
+		top: -125px;
+		border-radius: 8px;
+		display: flex;
+		align-items: center;
+		justify-self: flex-end;
+		margin-left: auto;
+		margin-right: 15px;
+	}
+
+	.mobile-container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		color: antiquewhite;
+		padding: 14px 16px;
+		font-size: 18px;
+		width: 100%;
+	}
+
+	#myLinks {
+		display: none;
+		flex-direction: column;
+	}
+
+	#myLinks a {
+		padding: 12px 16px;
+		text-decoration: none;
+		color: antiquewhite;
+		display: block;
+	}
+
+	#myLinks a:hover {
+		background-color: #0d87c4;
+		color: rgb(215, 202, 184);
+	}
+
+	.topnav a {
+		color: antiquewhite;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+	}
+
+	.topnav a:hover {
+		background-color: #0d87c4;
+		color: rgb(215, 202, 184);
+	}
+
+	.under img {
+		float: left;
+		width: 50%;
+		padding: 5px;
+	}
+
+	.hogwarts img {
+		float: right;
+		width: 44.2%;
+		padding: 5px;
+	}
+
+	.quidditch img {
+		float: left;
+		width: 50%;
+		padding: 5px;
+	}
+
+	.train img {
+		float: center;
+		width: 47.5%;
+		padding: 2px;
+	}
+
+	.potion img {
+		float: left;
+		width: 50%;
+		padding: 5px;
+	}
+
+	.plant-class img {
+		float: right;
+		width: 48.5%;
+		padding: 5px;
+	}
+
+	.undesirable img {
+		display: none;
+	}
+
+	.sorting img {
+		float: center;
+		width: 50%;
+	}
+
+	.plants img {
+		float: left;
+		width: 50%;
+	}
+
+	.hedwige img {
+		float: right;
+		width: 50%;
+	}
+
+	.buck img {
+		float: center;
+		width: 50%;
+		padding: 5px;
+	}
+
+	.potion-class img {
+		float: left;
+		width: 50%;
+	}
+
+	.broomstick img {
+		float: right;
+		width: 50%;
+	}
+
+	.golden {
+		width: 100%;
+	}
+}
+
 @media screen and (min-width: 1024px) {
+	.logo-hp-desktop {
+		display: block;
+		width: 30%;
+	}
+
+	.logo-hp-mobile {
+		display: none;
+	}
+
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+
+	h3 {
+		font-size: 1.5rem;
+	}
+
+	p {
+		font-size: 1.25rem;
+	}
+
+	.mobile-container {
+		display: none;
+	}
+
+	nav {
+		display: block;
+		font-family: "IM Fell English", serif;
+		font-weight: 400;
+		font-style: normal;
+		display: inline;
+		padding-left: 10px;
+		margin: 0;
+		margin-right: 30px;
+		padding: 0;
+		float: right;
+	}
+
+	.button {
+		padding: 15px 30px;
+		margin: 5px;
+		font-size: 1.25rem;
+		background-color: #186289;
+		display: inline-block;
+		border-radius: 8px;
+		text-decoration: none;
+		color: antiquewhite;
+	}
+
+	.undesirable img {
+		display: block;
+		float: center;
+		width: 50%;
+	}
+
+	.sorting img {
+		float: left;
+		width: 50%;
+	}
 }
